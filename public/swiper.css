@@ -101,5 +101,7 @@
     line-height: 12.1px;
     letter-spacing: 0%;
   }
- 
+  .swiper-container{
+    padding: 10px;
+  }
 }
