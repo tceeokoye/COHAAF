@@ -18,7 +18,6 @@ window.addEventListener("scroll", () => {
 
 const donateButtons = document.querySelectorAll(".donateButton");
 const donationDiv = document.querySelector(".donation-div");
-const sec5Button = document.querySelector(".frame-button");
 
 // Add click event to all donate buttons
 donateButtons.forEach((button) => {
@@ -38,18 +37,7 @@ document.body.addEventListener("click", function (event) {
 });
 
 // Add click event to sec5Button
-sec5Button.addEventListener("click", function (event) {
-  event.preventDefault();
-  event.stopPropagation(); // Stop event from bubbling up to the body
-  donationDiv.classList.toggle("active"); // Toggle active class
-});
 
-const sec8DonateBtn = document.getElementById("donate-link")
-sec8DonateBtn.addEventListener("click", function (event) {
-  event.preventDefault();
-  event.stopPropagation(); // Stop event from bubbling up to the body
-  donationDiv.classList.toggle("active"); // Toggle active class
-});
 
 
 // Ensure these variables are defined and contain the correct elements

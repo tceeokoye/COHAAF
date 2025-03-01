@@ -889,10 +889,21 @@ footer {
 @media screen and (max-width: 950px) {
   .dropDownButton {
     display: block;
+    height: 30px;
+    width: 36px;
+    margin: 0;
+    padding: 0;
+  }
+  #logo{
+    margin: 0;
+    padding: 0;
+   
   }
   #logo img {
-    width: 37px;
-    height: 28px;
+    width: 57px;
+    height: 43px;
+    margin: 0;
+    padding: 0;
   }
   .header-nav ul {
     display: flex;
@@ -900,12 +911,13 @@ footer {
     justify-content: center;
     flex-direction: column;
     gap: 6px;
-    background-color: #ffffff;
+    
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add proper box-shadow values */
   }
   .dropdown {
+    background-color: #ffffff;
     position: absolute;
-    top: 100%;
+    top: 94%;
     right: 18%;
     opacity: 0; /* Start fully transparent */
     transform: translateY(-20px); /* Start slightly above */
@@ -922,8 +934,7 @@ footer {
     visibility: visible; /* Show the dropdown */
   }
   .header-nav ul li a {
-    font-size: 14px;
-    width: 39px;
+    font-size: 16px;
     padding: 6px;
     font-weight: 400;
   }
@@ -936,12 +947,15 @@ footer {
     padding: 4px;
     font-family: Inter;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0%;
+    padding: 6px 12px;
   }
   .header-container {
     padding: 6px 20px;
     border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 20px;
   }
   .sub-header {
     padding-left: 16px;
@@ -952,8 +966,8 @@ footer {
   .subHeader-div p {
     font-family: Inter;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 9.68px;
+    font-size: 14px;
+    line-height: 16.68px;
     letter-spacing: 0%;
   }
   .subHeader-div img {
@@ -967,7 +981,7 @@ footer {
   .socialhead {
     position: absolute;
     top: 150%;
-    right: 11%;
+    right: 5%;
     z-index: 6;
     max-height: 0; /* Start with zero height */
     overflow: hidden; /* Hide overflowing content */
@@ -987,15 +1001,8 @@ footer {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   .social-handlehead img {
-    width: 12px;
-    height: 12px;
-  }
-  .header-div {
-    padding-bottom: 10px;
-  }
-  .header-container {
-    margin-top: 8px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
   }
 
   /* HEADER ENDS HERE */
@@ -1008,17 +1015,17 @@ footer {
     background-size: contain;
     background-position: center;
     align-items: center;
-    height: 220px;
+    height: 250px;
   }
   .fly-in {
-    width: 80px;
-    height: 31;
+    width: 120px;
+    height: 80px;
   }
   .section1 a {
     font-family: Inter;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 7.26px;
+    font-size: 16px;
+    line-height: 19.6px;
     letter-spacing: 0%;
   }
   .section1 a img {
@@ -1035,7 +1042,7 @@ footer {
   }
   .content-overallbox {
     top: 130px;
-    left: 22px;
+    left: 0px;
   }
 
   /* SECTION ONE ENDS HERE.... */
@@ -1052,8 +1059,8 @@ footer {
   .sec2content h1 {
     font-family: Inter;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 19.36px;
+    font-size: 20px;
+    line-height: 23.36px;
     letter-spacing: 0%;
     text-align: center;
     padding-bottom: 10px;
@@ -1061,8 +1068,8 @@ footer {
   .sec2content p {
     font-family: Inter;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16.68px;
+    font-size: 16px;
+    line-height: 20.68px;
     letter-spacing: 0%;
     text-align: center;
   }
@@ -1104,8 +1111,8 @@ footer {
   .sec3flexbox h3 {
     font-family: Inter;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16.94px;
+    font-size: 18px;
+    line-height: 18.94px;
     letter-spacing: 0%;
     text-align: left;
     padding-top: 2px;
@@ -1113,8 +1120,8 @@ footer {
   }
   .sec3flexbox p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 14.95px;
+    font-size: 16px;
+    line-height: 20.5px;
     letter-spacing: 0%;
   }
   .sec3box1,
@@ -1127,7 +1134,7 @@ footer {
 
   .sec3box {
     width: 100%;
-    height: fit-content;
+    height: 150px;
     padding: 6px;
     border-radius: 4px;
   }
@@ -1146,15 +1153,15 @@ footer {
   .sec4flex h3 {
     font-family: Inter;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 16.94px;
+    font-size: 20px;
+    line-height: 23.94px;
     letter-spacing: 0%;
     text-align: center;
     padding-bottom: 6px;
   }
   .sec4flex p {
-    font-size: 14px;
-    line-height: 16.95px;
+    font-size: 16px;
+    line-height: 20.5px;
   }
   .sec4flex img {
     width: 250px;
@@ -1174,40 +1181,40 @@ footer {
   .sec5Flex h1 {
     font-family: Inter;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 18.52px;
+    font-size: 20px;
+    line-height: 23.52px;
     letter-spacing: 0%;
     padding-bottom: 4px;
   }
   .p2 {
     font-family: Inter;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 14.68px;
+    font-size: 18px !important;
+    line-height: 20.68px !important;
     letter-spacing: 0%;
     padding-bottom: 4px;
   }
   .sec5flexbox h2 {
     font-family: Inter;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 18.1px;
+    font-size: 20px;
+    line-height: 23.1px;
     letter-spacing: 0%;
     padding-bottom: 4px;
   }
   .sec5flexbox h3 {
     font-family: Inter;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 12.1px;
+    font-size: 18px;
+    line-height: 21.1px;
     letter-spacing: 0%;
     padding-bottom: 4px;
   }
   .sec5flexbox p {
     font-family: Inter;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 15.68px;
+    font-size: 16px;
+    line-height: 18.68px;
     letter-spacing: 0%;
   }
 
@@ -1251,8 +1258,8 @@ footer {
   .sec7flex h2 {
     font-family: Inter;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 19.94px;
+    font-size: 20px;
+    line-height: 23.94px;
     letter-spacing: 0%;
     text-align: center;
     padding-bottom: 6px;
@@ -1260,8 +1267,8 @@ footer {
   .sec7flex p {
     font-family: Inter;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16.68px;
+    font-size: 16px;
+    line-height: 20.68px;
     letter-spacing: 0%;
   }
 
@@ -1269,7 +1276,6 @@ footer {
 
   /* FOOTER AREA STARTS HERE.. */
 
-  /* FOOTER AREA STARTS HERE */
   footer {
     background-color: #000000;
     padding: 10px;
@@ -1287,8 +1293,8 @@ footer {
     justify-content: space-between;
   }
   .logodiv img {
-    width: 33.34px;
-    height: 25.1px;
+    width: 60.34px;
+    height: 60.1px;
     border-radius: 4px;
   }
   .logodiv {
@@ -1298,17 +1304,16 @@ footer {
   .logodiv p {
     font-family: Inter;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16.94px;
+    font-size: 18px;
+    line-height: 18.94px;
     letter-spacing: 0%;
   }
   .footer-span,
   .footer-paragraph {
     font-family: Inter;
     font-weight: 700;
-    font-style: italic;
-    font-size: 10px;
-    line-height: 14.5px;
+    font-size: 14px;
+    line-height: 18.5px;
     letter-spacing: 0%;
   }
   #footer-nav {
@@ -1322,8 +1327,8 @@ footer {
   #footer-nav p {
     font-family: Inter;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16.94px;
+    font-size: 18px;
+    line-height: 23.1px;
     letter-spacing: 0%;
   }
   #footer-logo-container {
@@ -1333,22 +1338,22 @@ footer {
   .footer-navbar {
     font-family: Inter;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 7.26px;
+    font-size: 14px;
+    line-height: 18.26px;
     letter-spacing: 0%;
   }
   #social-handle {
     gap: 4px;
   }
   #social-handle a img {
-    width: 12px;
-    height: 12px;
+    width: 24px;
+    height: 24px;
   }
   .adrress {
     font-family: Inter;
-    font-weight: 700;
-    font-size: 8px;
-    line-height: 10.84px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.1px;
     letter-spacing: 0%;
     padding-top: 15px;
   }
@@ -1371,8 +1376,8 @@ footer {
     width: 100%;
     font-family: Inter;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 16.4px;
+    font-size: 16px;
+    line-height: 20.4px;
     letter-spacing: 0%;
     box-sizing: border-box;
   }
@@ -1404,27 +1409,27 @@ footer {
   .course-title {
     font-family: Inter;
     font-weight: 800;
-    font-size: 14px;
-    line-height: 17.1px;
+    font-size: 18px;
+    line-height: 20.1px;
     letter-spacing: 0%;
   }
   .discription {
     font-weight: 700;
-    font-size: 12px;
-    line-height: 15.95px;
+    font-size: 14px;
+    line-height: 18.5px;
     letter-spacing: 0%;
   }
   .more-view {
     font-family: Inter;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 12.84px;
+    font-size: 14px;
+    line-height: 18.84px;
     letter-spacing: 0%;
   }
   .summary {
     font-weight: 700;
-    font-size: 12px;
-    line-height: 15.95px;
+    font-size: 14px;
+    line-height: 18.95px;
     letter-spacing: 0%;
   }
   .main-course-content {
@@ -1437,15 +1442,16 @@ footer {
   }
 
   .course-donateBtn button {
-    width: 70px;
+    width: fit-content;
     height: 19px;
-    padding: 4px;
+    padding: 4px 6px;
     gap: 10px;
     border-radius: 4px;
     font-weight: 700;
-    font-size: 10px;
-    line-height: 11.2px;
+    font-size: 14px;
+    line-height: 18.2px;
     letter-spacing: 0%;
     text-align: center;
   }
 }
+
