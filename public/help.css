@@ -443,7 +443,7 @@ a:active {
   width: 100%;
   height: 606px; /* Full viewport height */
   background-image: url(images/helpBg.svg); /* Double-check the path */
-  background-size: contain; /* Cover the entire section */
+  background-size: cover; /* Cover the entire section */
   /* Center the image */
   background-repeat: no-repeat; /* Prevent repeating */
   margin: 0; /* Reset margin */
@@ -463,6 +463,7 @@ a:active {
 }
 .sec1footer {
   width: 100%;
+  background-color: #ffffffff;
   position: absolute;
   bottom: 0;
   height: fit-content;
@@ -732,9 +733,11 @@ footer {
     padding: 6px 12px;
   }
   .header-container {
+    width: 96%;
     padding: 6px 20px;
     border-radius: 8px;
     margin-top: 8px;
+    margin-bottom: 20px;
   }
   .sub-header {
     padding-left: 16px;

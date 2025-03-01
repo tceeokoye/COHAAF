@@ -17,14 +17,14 @@ window.addEventListener("scroll", () => {
 // triger donate screen whith donate button on the header
 
 const donateButtons = document.querySelectorAll(".donateButton");
-const donationDiv = document.querySelector(".donation-div");
+const donationDive = document.querySelector(".donation-div");
 
 // Add click event to all donate buttons
 donateButtons.forEach((button) => {
   button.addEventListener("click", function (event) {
     event.preventDefault();
     event.stopPropagation(); // Stop event from bubbling up to the body
-    donationDiv.classList.toggle("active");
+    donationDive.classList.toggle("active");
   });
 });
 
@@ -32,7 +32,7 @@ donateButtons.forEach((button) => {
 document.body.addEventListener("click", function (event) {
   // Check if the click is outside the donation-div
   if (!donationDiv.contains(event.target)) {
-    donationDiv.classList.remove("active"); // Remove active class
+    donationDive.classList.remove("active"); // Remove active class
   }
 });
 
