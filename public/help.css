@@ -692,19 +692,24 @@ footer {
     justify-content: center;
     flex-direction: column;
     gap: 6px;
+    height: 100%;
     
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add proper box-shadow values */
+
   }
   .dropdown {
     background-color: #ffffff;
     position: absolute;
-    top: 94%;
+    width: 60px;
+    padding: 20px 20px;
+    top: 87%;
     right: 18%;
+    height: 120px;
     opacity: 0; /* Start fully transparent */
     transform: translateY(-20px); /* Start slightly above */
     visibility: hidden; /* Hide the dropdown initially */
     transition: opacity 0.3s ease-out, transform 0.3s ease-out,
       visibility 0.3s ease-out; /* Smooth transitions */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add proper box-shadow values */
   }
   .header-div {
     padding: 0;
@@ -838,7 +843,7 @@ footer {
     font-family: Inter;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23.52px;
+    line-height: 25.52px;
     letter-spacing: 0%;
   }
   .section2 h3 {
@@ -873,7 +878,6 @@ footer {
   }
   /* FOOTER AREA STARTS HERE */
   /* FOOTER AREA STARTS HERE.. */
-
   footer {
     background-color: #000000;
     padding: 10px;
@@ -881,8 +885,7 @@ footer {
     box-sizing: border-box;
   }
   .footer-container {
-    display: grid;
-    grid-template-columns: auto auto;
+    flex-direction: column;
     width: 100%;
     padding: 0;
     padding-top: 40px;
@@ -911,7 +914,7 @@ footer {
     font-family: Inter;
     font-weight: 700;
     font-size: 14px;
-    line-height: 18.5px;
+    line-height: 22.5px;
     letter-spacing: 0%;
   }
   #footer-nav {
@@ -944,8 +947,8 @@ footer {
     gap: 4px;
   }
   #social-handle a img {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
   .adrress {
     font-family: Inter;
